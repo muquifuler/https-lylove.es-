@@ -1,0 +1,100 @@
+{
+    "Home": {
+        "newProductsAvaiable": "New Products Avaiable",
+        "giftsThatSpeak": "Gifts That Speak",
+        "theLanguageOfLove": "The Language of Love",
+        "subtitle": "Find the perfect present for your special someone. Curated with love, delivered with care.",
+        "shopGifts": "Shop Gifts",
+        "premiumQuality": "Premium Quality",
+        "fastShipping": "Fast Shipping",
+        "giftWrapping": "Gift Wrapping",
+        "happyCouples": "Happy Couples",
+        "slWorldwide": "Spreading love worldwide",
+
+        "our": "Our",
+        "loveCollection": "Love Collection",
+        "contentSubtitle": "Handpicked gifts that celebrate your unique love story",
+        "subPremiumQuality": "Every gift is carefully selected and quality-checked",
+        "subFastShipping": "Express shipping to make sure your gift arrives on time",
+        "subGiftWrapping": "Beautiful packaging that makes unwrapping special"
+    },
+    "Success": {
+        "orderPlaced": "Order Placed! 🎉",
+        "subtitle": "Your adorable blind boxes are on their way to you!",
+        "orderNumber": "ORDER NUMBER",
+        "orderConfirmed": "Order Confirmed",
+        "orderConfirmedSub": "We've received your order",
+        "preparing": "Preparing Your Surprises",
+        "preparingSub": "Your boxes are beign carefully packed",
+        "way": "On Its Way",
+        "waySub": "Expected delivery in 15 - 30 business days",
+        "continueShopping": "Continue Shopping",
+        "thanks": "Thank you for shopping with us! 💝",
+        "confirmationEmail": "A confirmation email has been sent to your inbox."
+    },
+    "NotFound": {
+        "continueShopping": "Continue Shopping",
+        "notFound": "Not Found"
+    },
+
+
+    "Details": {
+        "backToShop": "Back to Shop",
+        "noMore": "No more units available!",
+        "myName": "Name ❤️",
+        "hisName": "Name 2 ❤️",
+        "customText": "Custom text",
+        "fecha": "Date",
+        "localizacion": "Location",
+        "imagen": "Image",
+        "colorCollar": "Color necklace",
+        "perUnit": "per unit",
+        "quantity": "QUANTITY",
+        "add": "Add",
+        "toCart": "to Cart",
+        "youMayAlsoLike": "You may also like"
+    },
+    "Cart": {
+        "itemWaitingForYou" : "item waiting for you",
+        "each": "each",
+        "aditionalData": "Aditional data",
+        "proceed": "Proceed to Checkout",
+        "add": "Add",
+        "more": "more for FREE shipping",
+        "free": "FREE",
+        "name": "Name",
+        "desc": "Description",
+        "date": "Date",
+        "location": "Location",
+        "color": "Color",
+        "image": "Image",
+
+        "continueShopping": "Continue Shopping",
+        "yourCart": "Your Cart",
+        "orderSummary": "Order Summary",
+        "shipping": "Shipping",
+        "empty": "The cart is empty!",
+        "secure": "🔒 Secure checkout • Free returns within 30 days"
+    },
+    "Footer": {
+        "quickLinks": "Quick Links",
+        "stayUpdated": "Stay Updated!",
+        "staySub": "Subscribe for romantic gift ideas and exclusive offers!",
+        "subscribe": "Subscribe",
+        "aboutUs": "About Us",
+        "followUs": "Follow Us",
+        "footerText": "© 2025 Lylove. Made with ♥ for couples everywhere.",
+        "emailSent": "Email sent successfully",
+        "contact": "Contact",
+        "faq": "FAQ",
+        "cookies": "Cookies"
+    },
+    "CardBox": {
+        "inStock": "In stock",
+        "bestSeller": "Best Seller",
+        "new": "New",
+        "limitedEdition": "Limited Edition",
+        "custom": "Custom",
+        "viewDetails": "View details"
+    }
+}

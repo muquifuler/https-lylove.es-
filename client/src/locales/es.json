@@ -1,0 +1,100 @@
+{
+    "Home": {
+        "newProductsAvaiable": "Nuevos Productos Disponibles",
+        "giftsThatSpeak": "Regalos que Hablan",
+        "theLanguageOfLove": "El Lenguaje del Amor",
+        "subtitle": "Encuentra el regalo perfecto para esa persona especial. Seleccionado con amor, entregado con cuidado.",
+        "shopGifts": "Comprar Regalos",
+        "premiumQuality": "Calidad Premium",
+        "fastShipping": "Envío Rápido",
+        "giftWrapping": "Envoltura de Regalo",
+        "happyCouples": "Parejas Felices",
+        "slWorldwide": "Repartiendo amor por todo el mundo",
+
+        "our": "Nuestra",
+        "loveCollection": "Colección del Amor",
+        "contentSubtitle": "Regalos seleccionados que celebran su historia de amor única",
+        "subPremiumQuality": "Cada regalo es cuidadosamente seleccionado y revisado en calidad",
+        "subFastShipping": "Envío exprés para asegurarnos de que tu regalo llegue a tiempo",
+        "subGiftWrapping": "Un hermoso empaquetado que hace especial el momento de abrirlo"
+    },
+    "Success": {
+        "orderPlaced": "¡Pedido Realizado! 🎉",
+        "subtitle": "¡Tus regalos románticos están en camino hacia ti!",
+        "orderNumber": "NÚMERO DE PEDIDO",
+        "orderConfirmed": "Pedido Confirmado",
+        "orderConfirmedSub": "Hemos recibido tu pedido",
+        "preparing": "Preparando Tus Sorpresas",
+        "preparingSub": "Tus cajas están siendo cuidadosamente empaquetadas",
+        "way": "En Camino",
+        "waySub": "Entrega estimada en 7 - 28 días hábiles",
+        "continueShopping": "Seguir Comprando",
+        "thanks": "¡Gracias por comprar con nosotros! 💝",
+        "confirmationEmail": "Se ha enviado un correo de confirmación a tu bandeja de entrada."
+    },
+    "NotFound": {
+        "continueShopping": "Seguir Comprando",
+        "notFound": "Página No Encontrada"
+    },
+
+    "Details": {
+        "backToShop": "Volver a la tienda",
+        "noMore": "¡No hay más unidades disponibles!",
+        "myName": "Nombre ❤️",
+        "hisName": "Nombre 2 ❤️",
+        "customText": "Texto personalizado",
+        "fecha": "Fecha",
+        "localizacion": "Ubicación",
+        "imagen": "Imagen",
+        "colorCollar": "Color del collar",
+        "perUnit": "por unidad",
+        "quantity": "CANTIDAD",
+        "add": "Añadir",
+        "toCart": "al carrito",
+        "youMayAlsoLike": "También te puede gustar"
+    },
+    "Cart": {
+        "itemWaitingForYou": "artículos esperando por ti",
+        "each": "cada uno",
+        "aditionalData": "Datos adicionales",
+        "proceed": "Proceder al pago",
+        "add": "Añadir",
+        "more": "más para envío GRATIS",
+        "free": "GRATIS",
+        "name": "Nombre",
+        "desc": "Descripción",
+        "date": "Fecha",
+        "location": "Ubicación",
+        "color": "Color",
+        "image": "Imagen",
+
+        "continueShopping": "Seguir comprando",
+        "yourCart": "Tu carrito",
+        "orderSummary": "Resumen del pedido",
+        "shipping": "Envío",
+        "empty": "¡El carrito está vacío!",
+        "secure": "🔒 Pago seguro • Devoluciones gratis dentro de 30 días"
+    },
+    "Footer": {
+        "quickLinks": "Enlaces rápidos",
+        "stayUpdated": "¡Mantente al día!",
+        "staySub": "Suscríbete para ideas de regalos románticos y ofertas exclusivas.",
+        "subscribe": "Suscribirse",
+        "emailSent": "Email enviado correctamente.",
+        "aboutUs": "Sobre nosotros",
+        "followUs": "Síguenos",
+        "footerText": "© 2025 Lylove. Hecho con ♥ para parejas de todo el mundo.",
+        "contact": "Contacto",
+        "faq": "FAQ",
+        "cookies": "Cookies"
+    },
+    "CardBox": {
+        "inStock": "En stock",
+        "bestSeller": "Más vendido",
+        "new": "Nuevo",
+        "limitedEdition": "Edición limitada",
+        "custom": "Personalizado",
+        "viewDetails": "Ver detalles"
+    }
+
+}

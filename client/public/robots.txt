@@ -1,0 +1,16 @@
+# robots.txt para LYLOVE
+
+User-agent: *
+# Permitir todas las páginas públicas
+Allow: /
+
+# Bloquear rutas administrativas y sensibles
+Disallow: /admin
+
+# Rutas de carrito y pagos (opcional, para no indexar)
+Disallow: /cart
+Disallow: /success
+Disallow: /cancel
+
+# Sitemap
+Sitemap: https://lylove.es/sitemap.xml

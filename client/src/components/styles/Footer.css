@@ -1,0 +1,220 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+    padding: 2rem 15%;
+    width: 70%;
+    background: linear-gradient(to bottom right, #fff1f2 , #fdf2f8 , #fff);
+    border-top: solid 1px #fce7f3;
+}
+
+.Footer > .info{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}
+
+.Footer > .info > .subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1;
+}
+
+.Footer > .info > .subscribe > h3{
+    color: #1f2937;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    width: 100%;
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.Footer > .info > .subscribe > p{
+    font-size: 0.875rem;
+    color: #4b5563;
+    line-height: 1.25rem;
+    width: 100%;
+    margin: 1rem 0;
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.Footer > .info > .subscribe > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.Footer > .info > .subscribe > div > input{
+    padding: .5rem 1rem;
+    flex: 1;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    border: solid 2px #f43f5d3b;
+    border-radius: 9999px;
+    background-color: white;
+    outline: none;
+    color: #1f2937;
+}
+
+.Footer > .info > .subscribe > div > button{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: white;
+    padding: .5rem 1.5rem;
+    border-radius: 9999px;
+    cursor: pointer;
+    border: none;
+    line-height: 1.25rem;
+    background-color: #f43f5e;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.Footer > .info > .about{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.Footer > .info > .about > .links{
+    display: flex;
+    margin-top: .5rem;
+    gap: .25rem;
+    flex-direction: column;
+}
+
+.Footer > .info > .about > .links > a{
+    font-size: .9rem;
+    text-decoration: none;
+    color: #4b5563;
+}
+
+.Footer > .info > .about > .links > a:hover{
+    text-decoration: underline;
+}
+
+.Footer > .info > .about > h3{
+    color: #1f2937;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.Footer > .info > .about > p{
+    font-size: 0.875rem;
+    color: #4b5563;
+    line-height: 1.25rem;
+    margin: 1rem 0;
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.Footer > .info > .follow{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    flex: 1;
+}
+
+.Footer > .info > .follow > h3{
+    color: #1f2937;
+    font-size: 1.125rem;
+    font-weight: 700;
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+    line-height: 1.75rem;
+}
+
+.Footer > .info > .follow > div{
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    margin-top: 1rem;
+}
+
+.Footer > .info > .follow > div > .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    background: linear-gradient(to right, #f43f5e , #ec4899);
+    border-radius: 9999px;
+    width: 3rem;
+    height: 3rem;
+}
+
+.Footer > .info > .follow > div > .icon > svg{
+
+}
+
+.Footer > .made{
+    width: 100%;
+    border-top: solid 1px #fbcfe8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.Footer > .made > span{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: #6b7280;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.Footer > .made > span > p{
+    color: #ec4899;
+}
+
+.Footer > .info > .subscribe > .success-msg{
+    margin-top: 0.5rem;
+    color: #4caf50;
+    font-weight: bold;
+    transition: opacity 0.3s;
+}
+
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 768px) {
+    .Footer > .info{
+        flex-direction: column;
+    }
+
+    .Footer > .info > div > h3{
+        text-align: center;
+    }
+
+    .Footer > .info > div > p{
+        text-align: center;
+    }
+
+    .Footer > .info > .follow{
+        align-items: center;
+    }
+
+    .Footer > .info > .subscribe > div{
+        flex-direction: column;
+        margin: auto;
+    }
+    .Footer > .info > .about > .links{
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 480px) {
+    
+}

@@ -1,0 +1,78 @@
+{
+  "Home": {
+    "newProductsAvaiable": "Nouveaux Produits Disponibles",
+    "giftsThatSpeak": "Des Cadeaux qui Parlent",
+    "theLanguageOfLove": "Le Langage de l'Amour",
+    "subtitle": "Trouvez le cadeau parfait pour cette personne spéciale. Choisi avec amour, livré avec soin.",
+    "shopGifts": "Acheter des Cadeaux",
+    "premiumQuality": "Qualité Premium",
+    "fastShipping": "Expédition Rapide",
+    "giftWrapping": "Emballage Cadeau",
+    "happyCouples": "Couples Heureux",
+    "slWorldwide": "Ré répandons l'amour dans le monde entier",
+
+    "our": "Notre",
+    "loveCollection": "Collection Amour",
+    "contentSubtitle": "Des cadeaux sélectionnés pour célébrer votre histoire d'amour unique",
+    "subPremiumQuality": "Chaque cadeau est soigneusement sélectionné et contrôlé",
+    "subFastShipping": "Livraison express pour garantir que votre cadeau arrive à temps",
+    "subGiftWrapping": "Un bel emballage qui rend le déballage spécial"
+  },
+
+  "Success": {
+    "orderPlaced": "Commande Passée ! 🎉",
+    "subtitle": "Vos adorables blind boxes sont en route vers vous !",
+    "orderNumber": "NUMÉRO DE COMMANDE",
+    "orderConfirmed": "Commande Confirmée",
+    "orderConfirmedSub": "Nous avons bien reçu votre commande",
+    "preparing": "Préparation de Vos Surprises",
+    "preparingSub": "Vos boîtes sont soigneusement emballées",
+    "way": "En Chemin",
+    "waySub": "Livraison estimée dans 15 - 30 jours ouvrables",
+    "continueShopping": "Continuer vos Achats",
+    "thanks": "Merci d'avoir commandé chez nous ! 💝",
+    "confirmationEmail": "Un e-mail de confirmation a été envoyé dans votre boîte de réception."
+  },
+
+  "NotFound": {
+    "continueShopping": "Continuer vos Achats",
+    "notFound": "Page Non Trouvée"
+  },
+
+  "Details": {
+    "backToShop": "Retour à la boutique",
+    "noMore": "Plus d’unités disponibles !",
+    "myName": "Nom ❤️",
+    "hisName": "Nom 2 ❤️",
+    "customText": "Texte personnalisé",
+    "perUnit": "par unité",
+    "quantity": "QUANTITÉ",
+    "add": "Ajouter",
+    "toCart": "au Panier",
+    "youMayAlsoLike": "Vous aimerez peut-être aussi"
+  },
+
+  "Cart": {
+    "continueShopping": "Continuer vos Achats",
+    "yourCart": "Votre Panier",
+    "orderSummary": "Résumé de la Commande",
+    "shipping": "Livraison",
+    "empty": "Le panier est vide !",
+    "secure": "🔒 Paiement sécurisé • Retours gratuits sous 30 jours"
+  },
+
+  "Footer": {
+    "stayUpdated": "Restez Informé !",
+    "staySub": "Abonnez-vous pour recevoir des idées de cadeaux romantiques et des offres exclusives",
+    "subscribe": "S'abonner",
+    "aboutUs": "À Propos de Nous",
+    "followUs": "Suivez-nous"
+  },
+
+  "CardBox": {
+    "inStock": "En stock",
+    "bestSeller": "Meilleure Vente",
+    "new": "Nouveau",
+    "limitedEdition": "Édition Limitée"
+  }
+}

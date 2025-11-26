@@ -1,0 +1,465 @@
+.Home{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #ffe4e6 , #fdf2f8 , #fff);
+}
+
+.Home > .center{
+    margin: 0 20rem;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding-top: 9rem;
+}
+
+.Home > .center > .info{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    flex: 1;
+}
+
+.Home > .center > .info > .tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: .5rem 1rem;
+    border-radius: 9999px;
+    gap: .5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.Home > .center > .info > .tag > svg{
+    width: 1rem;
+    height: 1rem;
+    color: #374151;
+}
+
+.Home > .center > .info > .tag > span{
+    color: #374151;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+}
+
+.Home > .center > .info > h1{
+    background: linear-gradient(to right, #e11d48 , #ec4899 , #e11d48);
+    color: transparent;
+    background-clip: text;
+    font-size: 4rem;
+    line-height: 1.2;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    max-width: 95%;
+}
+
+.Home > .center > .info > p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #4b5563;
+    max-width: 36rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.Home > .center > .info > .buttons{
+    display: flex;
+    align-items: center;
+}
+
+.Home > .center > .info > .buttons > a{
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    border-radius: 9999px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    border: none;
+    gap: .5rem;
+    padding: 0 2rem;
+    height: 3.5rem;
+    background: linear-gradient(to right, #f43f5e , #ec4899);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.Home > .center > .info > .buttons > button > svg{
+    width: 1.25rem;
+    flex-shrink: 0;
+    height: 1.25rem;
+}
+
+.Home > .center > .info > .banners{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #6b7280;
+    margin-top: 3rem;
+}
+
+.Home > .center > .info > .banners > div{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.Home > .center > .info > .banners > div > .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe4e6;
+    border-radius: 9999px;
+    width: 2rem;
+    height: 2rem;
+}
+
+.Home > .center > .info > .banners > div > .icon > span{
+    width: 1rem;
+    height: 1rem;
+    color: #f43f5e;
+    fill: #f43f5e;
+}
+
+.Home > .center > .info > .banners > div > span{
+}
+
+.Home > .center > .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 600px;
+    aspect-ratio: 1 / 1;
+}
+
+.Home > .center > .img > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -1.5rem;
+    left: -1.5rem;
+    background-color: white;
+    position: absolute;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    max-width: 20rem;
+    gap: 1rem;
+    animation: anim 5s ease-in-out infinite;
+}
+
+@keyframes anim {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+
+.Home > .center > .img > div > .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #fb7185, #ec4899);
+    border-radius: 9999px;
+    width: 3rem;
+    height: 3rem;
+}
+
+.Home > .center > .img > div > .icon > svg{
+    width: 1.5rem;
+    height: 1.5rem;
+    color: white;
+    fill: white;
+}
+
+.Home > .center > .img > div > .data{
+    display: flex;
+    flex-direction: column;
+}
+
+.Home > .center > .img > div > .data > p{
+    color: rgb(17, 24, 39);
+    font-weight: 600;
+}
+
+.Home > .center > .img > div > .data > span{
+    color: rgb(107, 114, 128);
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.Home > .center > .img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    border-radius: 1.5rem;
+}
+
+.Home > .content{
+    padding: 5rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, #fff , #fff1f2);
+}
+
+.Home > .content > h2{
+    font-size: 3.75rem;
+    line-height: 1.2;
+    color: #111827;
+    font-weight: 800;
+    margin-bottom: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.Home > .content > h2 > span{
+    color: transparent;
+    background: linear-gradient(to right, #e11d48 , #ec4899);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'Playfair Display', serif;
+    
+    text-align: center;
+}
+
+.Home > .content > p{
+    color: #4b5563;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    gap: .5rem;
+    display: flex;
+    align-items: center;
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+
+.Home > .content > .grid{
+    width: 70%;
+    display: grid;
+    align-items: start; 
+    margin-top: 4rem;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.Home > .content > button{
+    color: white;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding: 1.5rem 3rem;
+    border-radius: 9999px;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    gap: .5rem;
+    border: none;
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+    cursor: pointer;
+    height: 2.25rem;
+    display: flex;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #f43f5e , #ec4899);
+}
+
+.Home > .content > .banner{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    padding: 8rem 0;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.Home > .content > .banner > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home > .content > .banner > div > .icon{
+    border-radius: 9999px;
+    background: linear-gradient(to bottom right, #fb7185 , #ec4899);
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    justify-content: center;
+}
+
+.Home > .content > .banner > div > .icon > span{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.Home > .content > .banner > div > p{
+    color: #111827;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0.75rem;
+}
+
+.Home > .content > .banner > div > span{
+    color:#6b7280;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .Home > .content > .grid{
+        width: 100%;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .Home > .center{
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .Home > .center > .img{
+        display: none;
+    }
+
+    .Home > .center > .info{
+        padding-top: 6.5rem;
+    }
+
+    .Home > .center > .info > .tag{
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .Home > .center > .info > p{
+        padding: 0 8%;
+    }
+
+    .Home > .center > .info > .buttons{
+        margin: auto;
+    }
+
+    .Home > .center > .info > .banners{
+        padding: 0 8%;
+        margin: 3rem 0 2rem 0;
+    }
+
+
+    .Home > .center > div > .stats{
+        padding-bottom: 2rem;
+    }
+    .Home > .center > div{
+        padding-top: 7rem;
+    }
+
+    .Home > .center > aside{
+        display: none;
+    }
+
+    .Home > .center > div > h1{
+        font-size: 3rem!important;
+        padding: 0 8%;
+        margin: 0 auto;
+    }
+
+    .Home > .center > div >p{
+        font-size: 1.1rem!important;
+    }
+
+    .Home > .center > div > a{
+        padding: 1.25rem;
+        font-size: 1.1rem;
+    }
+
+    .Home > .center > div > a > svg{
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .Home > .center > div > .stats{
+        gap: 1rem;
+    }
+
+    .Home > .center > div > .stats > div{
+        text-align: center;
+    }
+    .Home > .center > div > .stats > div > h5{
+        font-size: 2.75rem;
+    }
+    .Home > .center > div > .stats > div > p{
+        font-size: 1.5rem;
+    }
+    .Home > .center > div > .stats > div > span{
+        font-size: .8rem;
+    }
+
+    .Home > .content{
+        padding-top: 3rem;
+    }
+
+    .Home > .content > h2{
+        flex-direction: column;
+        gap: 0rem;
+        margin-bottom: 1.5rem;
+        font-size: 2.75rem;
+        padding: 0 8%;
+    }
+
+    .Home > .content > p{
+        flex-direction: column;
+        font-size: 1.1rem;
+        text-align: center;
+        padding: 0 8%;
+    }
+
+    .Home > .content > .grid{
+        width: 84%;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .Home > .content > .banner{
+        flex-direction: column;
+        padding: 3rem;
+        width: calc(100% - 6rem);
+    }
+
+    .Home > .center > .info > .banners{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Home > .center > .info > .banners > .lastIcon{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+
+}

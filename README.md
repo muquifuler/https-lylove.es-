@@ -1,3 +1,4 @@
 lylove.es
 ecommerce
-C:\Users\alfon\Desktop\PROYECTOS\Codigo\REACTVITE\2023\AlfonsoDiazHernandez\public\Lylove\1.png
+
+<img width="1008" height="496" alt="image" src="https://github.com/user-attachments/assets/f88682d8-fdde-46ac-86a8-32ebfd954c0d" />
